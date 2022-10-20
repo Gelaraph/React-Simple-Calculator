@@ -1,0 +1,37 @@
+* {
+  font-family: sans-serif;
+}
+.App {
+  width: 90%;
+  margin: 0 auto;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.result {
+  font-size: 20px;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+input {
+  /* display: block; */
+  margin-bottom: 20px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
